@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark icon" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars icon" onclick="openmenu()"></i>
+            </nav>
+            <section class="home">
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hii, I'm <br> Priyanka Laad</h1>
+                <br><br><br>
+             <div class="home">
+
+             </div>   
+            </div>
+            </section>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-1" >
+                    <img src="images\InShot_20230627_225927522.jpg" class="photo_about">
+                </div>
+                <div class="col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <br>
+                    <p>Highly skilled and innovative front-end developer with a passion for creating engaging user experiences. Seeking a challenging position where I can utilize my technical expertise and creativity to develop web applications. I possess a strong command of web technologies and aim to utilize my expertise in  web technologies to create visually stunning and highly functional websites. I aim to contribute to a team and collaborate on innovative projects that push the boundaries of web development.</p>
+                
+                    <div class="tab">
+                        <div class="tabs active-link" onclick="opentab('skills')">Skills</div>
+                        <div class="tabs"  onclick="opentab('experience')">Experience</div>
+                        <div class="tabs"  onclick="opentab('education')">Education</div>
+                    </div>
+                    <div class="tabcontains active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>HTML,CSS,JavaScript,NodeJs,ReactJs,Bootstrap</li>
+                            <li><span>Languages</span><br>C,Python</li>
+                            <li><span>Database Management System</span><br>SQL,Oracle</li>
+                        </ul>
+                    </div>
+                    <div class="tabcontains" id="experience">
+                        <ul>
+                            <li>
+                                <br>
+                                Building a Complete Personal Portfolio Website Using HTML CSS
+                                And JavaScript <br><br>
+                                </li>
+                            <li><span>Suven Consultants & Technology Pvt. Ltd.
+                                Machine Learning Coding Internship.
+                                26-10-2021</span><br>
+                                1) Building Chatbot for Online Food Ordering <br>
+                                2) Building Chat-bot for emulating Lab Coordinator at Diagnostics
+                                center</li>
+                         </ul>
+                    </div>
+                    <div class="tabcontains" id="education">
+                        <ul>
+                            <li><span>Parul Institute Of Engineering and Technology,
+                                Vadodara</span><br> 
+                                3rd year 8.85 CGPA</li>
+                            <li><span>Macro Vision Academy, Burhanpur</span><br>12th
+                                81% (2020)</li>
+                            <li><span>St. Mary’s School, Barwaha</span><br>10th
+                                72% (2018)</li>
+                         </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images\textutils.png">
+                    <div class="layer">
+                        <h3>TextUtils</h3>
+                        <p>A successfull designed and developed a dynamic web application using React, a powerful JavaScript library. The project focused on creating a responsive and user-friendly interface for a some basic operation purpose such as counting the words, changing to uppercase, lowercase, etc. </p>
+                        <a href="https://64820e98f3f07921b01e45aa--gentle-platypus-4bf569.netlify.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images\spotify.png">
+                    <div class="layer">
+                        <h3>Spotify App Clone</h3>
+                        <p>A functional Spotify clone created using HTML, CSS, Bootstrap, and JavaScript.
+                            To enhance the user experience, I utilized HTML and CSS to structure and style the various components of the application. </p>
+                        <a href="https://gregarious-lollipop-1e7017.netlify.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images\Chatbot.png">
+                    <div class="layer">
+                        <h3>Real Time Chat Application</h3>
+                        <p>A real-time chat application using Node.js, Express.js, and Socket.io. Implemented features such as real-time messaging, user authentication, and database integration. Conducted thorough testing and debugging to ensure a reliable chat platform.</p>
+                        <a href="https://649db6c1d6b85b0bbf1e1184--snazzy-semifreddo-1f6e0d.netlify.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                       
+                    </div>
+                </div>
+              
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>laadpriyanka2003@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>8989667944</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/priyanka.laad.75491?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/31_priyanka_03/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/31priyanka03"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/priyanka-laad-1044611b0/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div><br>
+                    <button class="btn btn2"><a href="images\Resume.pdf" download>Download CV</a></button>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                       <input type="text" name="Name" placeholder="Your Name" required>
+                       <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2" >Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script>
+        var tabslink =document.getElementsByClassName("tabs");
+        var tabscontain= document.getElementsByClassName("tabcontains");
+        function opentab(tabname){
+            for(x of tabslink){
+                x.classList.remove("active-link");
+            }
+            for(y of tabscontain){
+                y.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        var sidemenus=document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenus.style.right="0";
+        }
+        function closemenu(){
+            sidemenus.style.right="-200px";
+        }
+        
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzzIXIGP21g3luESDJyAyLIOeSHSa-9kE8-AxpFZxwzviRvg8wNn6_-77kUIj3hGnU/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
